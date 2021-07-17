@@ -88,6 +88,7 @@ span{
 /*---------------Main container ===========================*/
 
 .more-stuff-grid {
+  overflow: hidden;
   background: #f4f4f4;
   padding: 4em 0;
   display: grid;
@@ -97,7 +98,6 @@ span{
       1em,
       1fr
     );
-    overflow: hiddden;
 }
 
 .from-left {
@@ -368,6 +368,11 @@ footer{
 } 
 
 @media (min-width: 398px) and (max-width: 449px){
+   .navigation{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
 
   .details{
     width: 400px;
