@@ -88,7 +88,6 @@ span{
 /*---------------Main container ===========================*/
 
 .more-stuff-grid {
-  overflow: hidden;
   background: #f4f4f4;
   padding: 4em 0;
   display: grid;
@@ -101,12 +100,14 @@ span{
 }
 
 .from-left {
+  overflow: hidden;
   grid-column: 2 / 3;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
 .from-right {
+  overflow: hidden;
   grid-column: 3 / 4;
   -webkit-transform: translateX(50%);
   transform: translateX(50%);
